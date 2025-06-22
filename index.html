@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Appllication</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+
+    <form action="./form.php" method="post" enctype="multipart/form.data">
+
+        <label>Username</label>
+        <input type="text" name="username" id="username" placeholder="Enter your name">
+        <br><br>
+
+        <label>Password</label>
+        <input type="Password" name="password" id="password" placeholder="Enter your password">
+        <br><br>
+
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male"> Male</label> 
+        <input type="radio" name="gender" value="female"> Female</label>
+         <br><br>
+
+         <label>gmail</label>
+         <input type="email" name="gmail" placeholder="Enter your gmail">
+         <br><br>
+
+         <label>Courses</label>
+         <input type="checkbox" name="cse" id="cse">
+         <label for="cse">cse</label>
+
+         <input type="checkbox" name="AI&DS" id="AI&DS">
+         <label for="AI&DS">AI&DS</label>
+
+         <input type="checkbox" name="AI&ML" id="AI&ML">
+         <label for="AI&ML">AI&ML</label>
+
+         <input type="checkbox" name="EEE" id="EEE">
+         <label for="EEE">EEE</label>
+<br><br>
+
+<label>File</label>
+<input type="file">
+<br><br>
+
+<button type="submit">submit</button>
+    </form>
+</body>
+</html>
